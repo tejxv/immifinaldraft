@@ -1,48 +1,3 @@
-const randomizeText = () => {
-  const phrase = document.querySelector('.random-word');
-  const compStyles = window.getComputedStyle(phrase);
-  const animation = compStyles.getPropertyValue('animation');
-  const animationTime = parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
-  
-  const phrases = ['Indrapuram','Ontario'];
-  
-  i = randomNum(i, phrases.length);
-  const newPhrase = phrases[i];
-  
-  setTimeout(() => {
-    phrase.textContent = newPhrase;
-  }, 400); // time to allow opacity to hit 0 before changing word
-}
-
-const randomNum = (num, max) => {
-  let j = Math.floor(Math.random() * max);
-  
-  // ensure diff num every time
-  if (num === j) {
-    return randomNum(i, max);
-  } else {
-    return j;
-  }
-}
-
-const getAnimationTime = () => {
-  const phrase = document.querySelector('.random-word');
-  const compStyles = window.getComputedStyle(phrase);
-  let animation = compStyles.getPropertyValue('animation');
-  
-  // firefox support for non-shorthand property
-  animation != "" ? animation : animation = compStyles.getPropertyValue('-moz-animation-duration');
-  
-    // webkit support for non-shorthand property
-  animation != "" ? animation : animation = compStyles.getPropertyValue('-webkit-animation-duration');
-  
-  
-  const animationTime = parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
-  return animationTime;
-}
-
-randomizeText();
-setInterval(randomizeText, getAnimationTime());
 
 // MODAL LOGIC
 
@@ -98,3 +53,13 @@ function run(){
     console.log("check1");
     },3000);
 }
+
+function checking(){
+  const immilogo = document.querySelector('#logo-immi img');
+console.log("immilogo",immilogo);
+immilogo.onclick = function(){
+  location.href = "index.html";
+}
+
+}
+checking();

@@ -1,3 +1,37 @@
+/* UNIVERSAL */
+.btn-pnp{
+    color: #fff !important;
+    /* width: 200px; */
+    margin-bottom: 30px;
+  }
+  .btn-pnp:hover{
+    color: #fff !important;
+    cursor: pointer;
+  }
+  .breadcumb-area-saskSINP{
+    background: rgba(0, 0, 0, 0) url("../img/home/sask-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-bcPNP{
+    background: rgba(0, 0, 0, 0) url("../img/home/bc-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-migrate{
+    background: rgba(0, 0, 0, 0) url("../img/home/passport-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-ielts{
+    background: rgba(0, 0, 0, 0) url("../img/home/ielts-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 /* STUDY VISA STARTS */
 
 .study-visa-img{
@@ -150,3 +184,20 @@
     cursor: pointer;
   }
 /* IELTS/CELPIP ENDS */
+
+/* ALBERTA INP STARTS HERE */
+.pnp-ul ul{
+    text-align: left;
+}
+.pnp-ul ul li{
+    margin-bottom: 20px;
+    list-style-type:circle;
+    
+}
+.breadcumb-area-Alberta{
+    background: rgba(0, 0, 0, 0) url("../img/home/ainp.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  

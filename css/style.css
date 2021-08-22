@@ -4312,7 +4312,7 @@ footer {}
 }
 
 .breadcumb .links li:last-child a {
-  color: #3fb698;
+  color: #b8261c;
 }
 
 /*about tab*/
@@ -7347,15 +7347,7 @@ height: 200px;
 }
 
 /* PNP Program Page */
-.btn-pnp{
-  color: #007bff !important;
-  /* width: 200px; */
-  margin-bottom: 30px;
-}
-.btn-pnp:hover{
-  color: #fff !important;
-  cursor: pointer;
-}
+
 .row p{
   font-size: 1.2em;
 }
@@ -7589,6 +7581,9 @@ height: 200px;
 }
 .header2{
   display: flex;
+}
+#logo-immi {
+  cursor: pointer;
 }
 @media screen and (max-width: 800px){
   .header-2{
@@ -8080,6 +8075,7 @@ button:active {
   display: flex;
   line-height: 10px;
   padding-top: 5px;
+  height: 68px;
 }
 .upper-area-details > div{
   margin-right:30px ;
@@ -8093,55 +8089,52 @@ button:active {
   color: #fff;
   letter-spacing: 4px;
 }
+#first-anim{
+  width: 200px;
+}
 #first-anim span::before{
   content: '';
   animation: text 9s ease infinite;
-  color: #00314f;
+  color: #fff;
+  line-height: 18px;
+
 }
 #second-anim span::before{
   content: '';
   animation: text1 9s ease infinite;
-
+  color: #fff;
 }
 #third-anim span::before{
-  content: 'immiglobal@info.com';
+  content: 'rajeev.tiwari@immiglobalservices.com';
   color: #fff;
 }
 @keyframes text {
   0%{
-    content:'Location1';
-    color:blue;
+    content:'Unit No. A 302 3rd Floor Rajhans Plaza Indirapuram';
   }
-  25%{
-    content: 'Location1';
-    color: blue;
+  49%{
+    content: 'Unit No. A 302 3rd Floor Rajhans Plaza Indirapuram';
   }
   50%{
-    content: 'Location2';
-    color: green;
+    content: 'Rajendra Nagar';
   }
   100%{
-    content: 'Location3';
-    color: yellow;
+    content: 'Rajendra Nagar';
   }
   
 }
 @keyframes text1 {
   0%{
-    content:'Number1';
-    color:blue;
+    content:'8800771644';
   }
-  25%{
-    content: 'Number1';
-    color: blue;
+  49%{
+    content: '8800771644';
   }
   50%{
-    content: 'Number2';
-    color: green;
+    content: '9599030908';
   }
   100%{
-    content: 'Number3';
-    color: yellow;
+    content: '9599030908';
   }
   
 }
@@ -8317,6 +8310,17 @@ button:active {
 .consult-btn input:hover{
 cursor: pointer;
 background-color: #b8261c  ;
+}
+@media screen and (max-width:470px){
+  .consult-img img{
+    display: none;
+  }
+  .consult-bg{
+    width: 90%;
+  }
+  .consult-form form ul{
+    padding: 0px;
+  }
 }
 #modal-button{
   opacity: 0;
