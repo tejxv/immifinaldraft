@@ -7556,7 +7556,7 @@ height: 200px;
 	position: absolute;
   transition: 0.3s all ease;
 	z-index: 99;
-	/* display: none; */
+	display: none;
   visibility: hidden;
   opacity: 0;
 }
@@ -7679,7 +7679,14 @@ height: 200px;
   height: 100vh;
   object-fit: cover;
 }
-
+@media (max-width: 1090px) { 
+  .swiper-container {
+    height: 300px;
+  }
+  .swiper-slide img {
+    height: 300px;
+  }
+}
 /* MODAL CSS */
 
 /* The Modal (background) */
