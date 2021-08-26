@@ -7571,7 +7571,7 @@ height: 200px;
   line-height: 45px;
 }
 #menu li:hover ul.sub-menus {
-	/* display: block */
+	display: block;
   visibility: visible;
   opacity: 1;
 }
@@ -7641,7 +7641,8 @@ height: 200px;
     content:"\00d7"
   }
 	#menu input:checked ~ ul {
-    display:block
+    display:block;
+    z-index: 99;
   }
 }
 
@@ -7675,7 +7676,7 @@ height: 200px;
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 390px;
+  height: 100vh;
   object-fit: cover;
 }
 
