@@ -73,6 +73,10 @@
 .clear {
   clear: both
 }
+
+html {
+  overflow-x: hidden;
+}
 body {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -7651,6 +7655,7 @@ height: 200px;
 .swiper-container {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .swiper-slide {
