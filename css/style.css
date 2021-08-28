@@ -1959,7 +1959,7 @@ header {}
 /*Counter*/
 
 .counter-area {
-  background: rgba(0, 0, 0, 0) url("../img/home1/counter-bg.jpg") no-repeat fixed 0 0 / cover;
+  background: rgba(0, 0, 0, 0) url("../img/home/team.jpg") no-repeat fixed 0 0 / cover;
   padding: 95px 0 65px;
 }
 
@@ -7556,7 +7556,7 @@ height: 200px;
 	position: absolute;
   transition: 0.3s all ease;
 	z-index: 99;
-	/* display: none; */
+	display: none;
   visibility: hidden;
   opacity: 0;
 }
@@ -7571,7 +7571,7 @@ height: 200px;
   line-height: 45px;
 }
 #menu li:hover ul.sub-menus {
-	/* display: block */
+	display: block;
   visibility: visible;
   opacity: 1;
 }
@@ -7641,7 +7641,8 @@ height: 200px;
     content:"\00d7"
   }
 	#menu input:checked ~ ul {
-    display:block
+    display:block;
+    z-index: 99;
   }
 }
 
@@ -7650,6 +7651,7 @@ height: 200px;
 .swiper-container {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .swiper-slide {
@@ -7675,8 +7677,16 @@ height: 200px;
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
+}
+@media (max-width: 1090px) { 
+  .swiper-container {
+    height: 300px;
+  }
+  .swiper-slide img {
+    height: 300px;
+  }
 }
 
 /* MODAL CSS */
@@ -8384,7 +8394,6 @@ background-color: #b8261c  ;
 .testimonial {
   min-height: 375px;
   position: relative;
-  background: black;
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
@@ -8416,6 +8425,7 @@ overflow-y: hidden;
 position: absolute;
 text-align: center;
 white-space: nowrap;
+color: yellow;
 }
 .testimonial4_indicators .carousel-indicators li{
 padding: 0;

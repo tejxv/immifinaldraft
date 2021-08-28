@@ -118,23 +118,46 @@
                <a href="aboutUs.html" class="btnReadMore">
                 READ MORE
                </a>
-             </div>
+          </div>
         </div>
         
         <img src="./img/home/canada-slider.jpg" />
       </div>
       <div class="swiper-slide">
-        <div class="textOverlay">This is on top</div>
+        <div class="textOverlay">
+          <h1>Express Entry</h1>
+           <h4></h4> 
+            <p>Get Express Country Visa to any of your Desired Country. Avail great offers with 24*7 contact support 
+             </p>
+             <a href="contactUs.html" class="btnReadMore">
+              Contact Us
+             </a>
+        </div>
         <img src="./img/home/slider-2.jpg" />
       </div>
       <div class="swiper-slide">
-        <img src="./img/home/slider-3.jpg" />
+        <div class="textOverlay">
+          <h1>Study Visa</h1>
+           <h4></h4> 
+            <p>Canada invites 100,000 students every year for it's student programme. Know more about it
+             </p>
+             <a href="contactUs.html" class="btnReadMore">
+              Contact Us
+             </a>
+        </div>
+        <img src="./img/home/study-visa-banner.jpg" />
       </div>
       <div class="swiper-slide">
+        <div class="textOverlay">
+          <h1>Migrate</h1>
+           <h4>Migrate with your family in Canada, USA, Australia, Europe.</h4> 
+            <p>
+            </p>
+             <a href="Ontario-PNP.html" class="btnReadMore">
+              Migrate
+             </a>
+        </div>
         <img src="./img/home/slider-4.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://picsum.photos/1000/500?random=5" />
       </div>
     </div>
     <div class="swiper-button-next"></div>
@@ -1346,9 +1369,10 @@
       <!-- gmap-script -->
       <script>
         function initMap() {
-          var locationRio = { lat: 28.646, lng: 77.3695 };
+          
+          var locationRio = { lat: 28.638832207231292, lng: 77.36072456134765 };
           var map = new google.maps.Map(document.getElementById("googleMap"), {
-            zoom: 13,
+            zoom: 18,
             center: locationRio,
             gestureHandling: "cooperative",
           });

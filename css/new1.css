@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 /* UNIVERSAL */
+
+/* FOOTER */
+.footer-top-area{
+    background: none 0px 0px repeat scroll rgb(9 10 20);
+}
+.footer-bottom-area{
+    background-color: #480000;
+}
 /* HEADER */
 @media screen and (max-width:800px){
     .header-upper-area1{
@@ -13,7 +21,10 @@
     }
 }
 
-/* SLIDER ARROWS */
+/* SLIDER */
+.btnReadMore:hover{
+    color: #b8261c;
+}
 @media screen and (max-width:800px){
     .swiper-button-prev{
         display: none;
@@ -232,3 +243,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* TESTIMONIAL */
+.testimonial{
+    background: rgb(157,47,23);
+    background: linear-gradient(90deg, rgba(157,47,23,1) 9%, rgba(25,1,8,1) 100%);}
