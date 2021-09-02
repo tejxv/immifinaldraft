@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 /* UNIVERSAL */
+
+/* FOOTER */
+.footer-top-area{
+    background: none 0px 0px repeat scroll rgb(9 10 20);
+}
+.footer-bottom-area{
+    background-color: #480000;
+}
+/* HEADER */
+@media screen and (max-width:800px){
+    .header-upper-area1{
+        width: 100%;
+    }
+    .upper-area-div{
+        width: 100%;
+    }
+    .social{
+        margin-left: -40px;
+    }
+}
+
+/* SLIDER */
+.btnReadMore:hover{
+    color: #b8261c;
+}
+@media screen and (max-width:800px){
+    .swiper-button-prev{
+        display: none;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+}
 .btn-pnp{
     color: #fff !important;
     /* width: 200px; */
@@ -115,6 +149,15 @@
 /* STUDY VISA ENDS */
 
 /* IELTS/CELPIP STARTS */
+.ielts h2{
+    font-size: 2.8em;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin-top: 20px;
+}
+.ielts p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
 .celpip{
 }
 .celpip ul{
@@ -200,4 +243,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
+
+/* TESTIMONIAL */
+.testimonial{
+    background: rgb(157,47,23);
+    background: linear-gradient(90deg, rgba(157,47,23,1) 9%, rgba(25,1,8,1) 100%);}
